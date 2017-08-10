@@ -1,0 +1,207 @@
+/*共通のcss*/
+
+*{
+  box-sizing:border-box;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+body,div,h1,header,footer,ul,li{
+  padding: 0;
+  margin: 0
+}
+
+li{
+  list-style: none;
+}
+
+
+
+.clear{
+  clear: left;
+}
+
+
+/*container*/
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+}
+
+
+
+
+.column{
+  width: 100%
+}
+
+.filters-wrapper{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.filter-item{
+  width: 60px;
+  height:60px;
+  border-radius: 30px;
+  background-color: #C0C0C0;
+  color: #FFFFFF;
+  display: inline-block;
+  padding:0 10px;
+  margin: 5px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.filter-item:hover {
+  color: #fff;
+  background: gray;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.filter-item.active {
+  background: gray;
+  color: #fff;
+  cursor: default;
+}
+
+
+
+.column-box-wrapper{
+  width: 600px;
+  margin-top:70px; 
+  margin-left: 30px;
+  float: left;
+}
+
+.column-box {
+  display: inline-block;
+  vertical-align: top;
+  height: 230px;
+  width: 250px;
+  box-sizing:border-box;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  margin: 0 15px 30px;
+  text-align: center;
+}
+
+.list-title{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 20px;
+
+}
+
+
+
+.column-image {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: 125% auto;
+  transition: all 0.3s;
+}
+
+.column-hover{
+  background-size:135% auto;
+  transition: all 0.3s;
+}
+
+.zoom-black {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.category_wrapper{
+  float: left;
+}
+
+.category_name{
+    font-size: 18px;
+    font-style: bold;
+}
+
+
+@media screen and (max-width: 980px){
+  
+
+
+  .container{
+    width: 880px;
+    margin: 0 auto;
+  }
+
+
+  .filters-wrapper{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  
+
+  .column-box-wrapper{
+    margin-top:50px; 
+  }
+  .column-box {
+  }
+}
+
+
+
+@media screen and (max-width: 600px){
+
+
+  #submit-btn{
+    padding: 14px 120px;
+  }
+
+  .container{
+    width: 480px;
+  }
+
+
+  .filters-wrapper{
+    width: 480px;
+    margin: 0 auto;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .filter-item{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    line-height: 50px;
+  }
+
+  .column-box-wrapper{
+    width: 480px;
+    text-align: center;
+    margin-top:30px; 
+    margin-left: 0;
+  }
+  .column-box {
+    width: 400px;
+  }
+
+
+}
+
+
+

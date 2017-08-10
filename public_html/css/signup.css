@@ -1,0 +1,158 @@
+
+
+/*container*/
+
+.section input[type="text"]{
+  border: 1px solid #c8c8c8;
+  border-radius: 2px;
+  padding: 10px 7px;
+}
+
+.section input[type="password"] {
+    border: 1px solid #c8c8c8;
+    height: 20px;
+    border-radius: 2px;
+    padding: 16.5px 7px;
+}
+
+.note{
+  font-size: 11px;
+  margin: 3px 0 0 0;
+  color: #808080;
+  /*margin-top: 10px;*/
+}
+
+article{
+  width: 980px;
+  margin: 0 auto;
+  color: #2d2d2d;
+  font-size: 13px;
+  margin-top: 100px;
+}
+
+.section{
+  width: 700px;
+  margin: 34px auto 0
+}
+
+.sectionInner{
+  background: #f0f0f0;
+  padding: 36px 48px 40px 48px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+}
+
+.sectionHedder{
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.sectionHedder h2{
+  font-size: 18px;
+  padding: 0 0 10px 0;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr{
+  border-bottom: 1px solid #dcdcdc;
+}
+
+th{
+  font-style: normal;
+  font-weight: normal;
+  width: 180px;
+  padding: 0;
+  color: #5a5a5a;
+  border: none;
+  background: none;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+td{
+  padding: 21px 0 20px;
+}
+
+.str{
+  padding: 2px;
+  color: #808080;
+  font-size: 11px;
+}
+
+.sexYtpeForm label{
+  margin-right: 8px;
+}
+
+.birthform select{
+  width: 90px;
+  margin: 0 9px 0 0;
+  padding: 9px 6px 7px 8px;
+  border: 1px solid #ccc;
+  -webkit-appearance: none;
+  background-color: #fff;
+}
+
+.birthform span{
+  margin: 0 20px 0 0;
+}
+
+.postForm input{
+  width: 225px;
+}
+
+
+.mailForm input{
+  width: 400px;
+}
+
+
+.sub{
+  margin: 5px 0 0 0;
+}
+
+.passForm input{
+  width: 225px;
+}
+
+.registForm .confTxt{
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.btn{
+  position: relative;
+  z-index: 1;
+}
+
+.gBtn{
+  width: 270px;
+  font-size: 14px;
+  margin: 25px auto 0 auto;
+  color: #ffffff !important;
+  display: block;
+  text-align: center;
+  border-radius: 2px;
+  padding: 11px 0 8px;
+  background: #2490D0;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  border: none;
+  color: #fff;
+}
+
+#note{
+  width: 700px;
+  color: #808080;
+  font-size: 10px;
+  margin: 15px auto 0 auto
+}
+
+.err {
+  color: #ff3d00;
+  font-weight: bold;
+  font-size: 13px;
+}

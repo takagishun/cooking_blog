@@ -1,0 +1,225 @@
+
+
+
+
+
+
+
+
+.container{
+	width: 100%;
+	/*padding-top: 60px;*/
+	background-image: url("../images/vage.jpg");
+	background-position: ;
+	/* タイル状には並べないように指定 */
+	/*background-repeat: no-repeat;*/
+	/* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+	/*background-attachment: fixed;*/
+	/* 表示するディスプレイの大きさに基づいて、背景画像を縦横比を固定しながら調整 */
+	background-size: 100%;
+	/* 画像が読み込まれる前の背景色の指定 */
+	background-color: #fff;
+	margin-bottom: 0px;
+}
+
+#breadcrumb{
+	background: rgba(255,255,255,0.8);
+
+}
+
+
+
+
+
+.content_inner{
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.add_inner{
+	background: rgba(255,255,255,0.8);
+	padding: 5px;
+	margin-bottom: 20px;
+	border-radius: 30px;
+}
+
+
+article{
+  width: 980px;
+  margin: 0 auto;
+  color: #2d2d2d;
+  font-size: 13px;
+  margin-top: 100px;
+}
+
+#searchform{
+}
+
+#search_term{
+  padding: 5px;
+  box-shadow: 0px 0px 0px -50px;
+  border:1px solid #cccccc;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 300px;
+  line-height: 30px;
+  text-align: center;
+}
+
+#search_results table{
+	width: 200px;
+	margin: 0 auto;
+}
+
+#button{
+	width: 70px;
+	border-radius: 5px;
+	border: none;
+	color: #FFF;
+	background-color: black;
+}
+
+
+#search_button{
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background: #1D1D1D;
+  /*box-shadow: 0 3px 0 #0088cc;*/
+  cursor: hand;
+  cursor: pointer;
+  margin: 0 auto 15px;
+
+}
+
+#boxadd_results label{
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+#boxadd_results input[name=quantity]{
+	width: 150px;
+	line-height: 25px;
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+}
+
+#boxadd_results span{
+	margin-right: 5px;
+	font-size: 15px;
+}
+
+#boxadd_results select{
+	width: 70px;
+	height: 28px;
+	border-radius: 5px;
+	background-color: #fff;
+	border: none;
+}
+
+.box_add_btn{
+	margin-left: 20px;
+	width: 100px;
+	line-height: 25px;
+	border-radius: 5px;
+	border: none;
+	color: #FFF;
+	background-color: black;
+}
+
+.contentHedder{
+	position: relative;
+}
+
+.contentHedder h2{
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: 0px;
+
+}
+
+
+.unity{
+}
+
+.box_edit{
+	font-size: 15px;
+	position: absolute;
+	right: 50px;
+	top: 10px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.box_edit:hover{
+	color: red;
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+
+
+}
+
+.box_reload{
+	font-size: 16px;
+	position: absolute;
+	right: 25px;
+	top: 10px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.box_reload:hover{
+	color: red;
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+
+
+}
+
+
+
+.box_inner{
+	padding: 20px;
+	background: rgba(255,255,255,0.8);
+	border-radius: 30px;
+}
+
+
+
+.box_inner table{
+	padding-left: 120px;
+	padding-top: 20px;
+	font-size: 14px;
+}
+
+td.food_name,th.food_name{
+	width: 100px;
+	text-align: left;
+}
+
+td.quantity,th.quantity{
+	width: 100px;
+	text-align: right;
+}
+
+td.unit,th.unit{
+	width: 100px;
+	text-align: left;
+}
+
+td.open_date,th.open_date{
+	width: 150px;
+	text-align: left;
+}
+
+
+.box_delete{
+	display: none;
+}

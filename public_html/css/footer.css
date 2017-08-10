@@ -1,0 +1,39 @@
+/*footer*/
+/*social*/
+.social-section {
+  display: inline-block;
+  margin-left: 20px;
+  
+}
+
+
+.social-icon {
+  color: #fff;
+  transition: all .3s;
+  font-size: 30px;
+}
+
+.copyright{
+  display: inline-block;
+  font-size:16px;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  background:#262626 ;
+  color: #FFFFFF;
+  line-height: 64px;
+}
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 480px){
+
+}
+

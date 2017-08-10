@@ -1,0 +1,83 @@
+
+
+ /*container*/
+
+.login_form {
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+.login[type=text],
+.login[type=password] {
+  padding: 5px;
+  box-shadow: 0px 0px 0px -50px;
+  border:1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 300px;
+  line-height: 30px;
+}
+
+.btn {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  background: #00aaff;
+  box-shadow: 0 3px 0 #0088cc;
+  cursor: pointer;
+  margin: 0 auto 15px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.fs12 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.err {
+  color: #ff3d00;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+
+
+@media screen and (max-width: 600px){
+  header{
+    text-align: center;
+    height: 120px;
+    width: 100%;
+  }
+
+  .logo a{
+    float: none;
+    padding-right: 5px;
+  }
+
+  .search-form{
+    float: none;
+    margin: 0 auto;
+    width: 260px;
+    margin-top: 10px;
+  }
+
+  .search-btn{
+    margin: 0;
+    width: 53px;
+    height: 53px;
+    padding: 5px 5px;
+  }
+
+
+  .login_form {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 600px;
+}
+ }
+
